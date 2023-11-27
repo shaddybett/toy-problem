@@ -15,6 +15,6 @@ def words(letters):
         else:
             return None
     
-result = words('wizard')
+result = words('strength')
 print(result)
 

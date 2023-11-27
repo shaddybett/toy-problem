@@ -1,7 +1,7 @@
 def converter(hour,minute):
     converted = []
     if 1 <= hour <= 12 and 0 <= minute <= 60 :
-        converted .append(f'{hour}:{minute} am')
+        converted .append(f'{hour:02d}:{minute:02d}am')
         return converted
     else:
         return 'failed'

@@ -10,5 +10,5 @@ def positive(a,b,c):
     else:
         return False
 
-result = positive(2,1,3)
+result = positive(6,1,3)
 print(result)

@@ -19,6 +19,7 @@ def solve(word):
 
     return max_consonant_value
 
-# Example usage:
-result = solve('strength')
+
+result = solve('work')
 print(result)
+

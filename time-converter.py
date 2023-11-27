@@ -1,6 +1,13 @@
-def converter():
+def converter(hour,minute):
     converted = []
-    time = time.range(1,12)
-    minute = minute.range(0,59)
+    if 1 <= hour <= 12 and 0 <= minute <= 60 :
+        converted .append(f'{hour}:{minute} am')
+        return converted
+    else:
+        return 'failed'
     
+
+result = converter(11,5)
+print(result)
+
 
